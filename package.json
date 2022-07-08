@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "testing development in toolbox under Fedora Silverblue",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Allen Lowe",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "4.7.4"
+  }
+}
